@@ -31,11 +31,11 @@ services:
     networks:
       - wordpress     
     volumes:
-      - db_test:/var/lib/mysql
+      - ${VOLUME_NAME}-db_test:/var/lib/mysql
 
 volumes:
-  wordpress:
-  db:
+  wordpress_test:
+  ${VOLUME}-db_test:
 
 networks:
   wordpress:
