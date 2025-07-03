@@ -12961,6 +12961,16 @@
           "name": "WEB_SERVER_PORT"
         },
         {
+          "default": "db_test",
+          "label": "Database name",
+          "name": "MYSQL_DATABASE_NAME"
+        },
+        {
+          "default": "volume_test",
+          "label": "Volume name",
+          "name": "VOLUME_NAME"
+        },
+        {
           "default": "wordpress",
           "label": "Database user name",
           "name": "MYSQL_DATABASE_USER_NAME"
