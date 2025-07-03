@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  apache-json:
+    build: .
+    ports:
+      - "8982:80"
+    volumes:
+      # Optional: Mount the data directory for development
+      - ./data.json:/usr/local/apache2/htdocs/data.json:ro
+      - ./stack:/usr/local/apache2/htdocs/stack:ro
+    restart: unless-stopped 
