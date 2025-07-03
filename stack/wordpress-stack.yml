@@ -13,12 +13,11 @@ services:
       WORDPRESS_DB_USER: ${MYSQL_DATABASE_USER_NAME}
       WORDPRESS_DB_PASSWORD: ${MYSQL_DATABASE_PASSWORD}
       WORDPRESS_DB_NAME: ${MYSQL_DATABASE_NAME}
-      VOLUME_NAME: ${VOLUME_NAME}
 
     networks:
       - wordpress     
     volumes:
-      - /root/${VOLUME_NAME}-test:/var/www/html
+      - /root/${VOLUME_WORDPRESS}-test:/var/www/html
 
   db_test:
     image: jc21/mariadb-aria:latest
@@ -31,11 +30,11 @@ services:
     networks:
       - wordpress     
     volumes:
-      - ${VOLUME_NAME}-db_test:/var/lib/mysql
+      - ${VOLUME_DB}-db_test:/var/lib/mysql
 
 volumes:
-  wordpress_test:
-  ${VOLUME}-db_test:
+  ${VOLUME_WORDPRESS}-wordpress_test:
+  ${VOLUME_DB}-db_test:
 
 networks:
   wordpress:

@@ -12969,6 +12969,17 @@
           "default": "volume_test",
           "label": "Volume name",
           "name": "VOLUME_NAME"
+          
+        },
+        {
+          "default": "db_test",
+          "label": "dbVolume name",
+          "name": "VOLUME_DB"
+        },
+        {
+          "default": "wordpress_test",
+          "label": "wordpress Volume name",
+          "name": "VOLUME_WORDPRESS"
         },
         {
           "default": "wordpress",
