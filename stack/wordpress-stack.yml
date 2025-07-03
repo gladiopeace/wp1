@@ -30,11 +30,9 @@ services:
     networks:
       - wordpress     
     volumes:
-      - ${VOLUME_DB}-db_test:/var/lib/mysql
+      - /root/js/data/${VOLUME_DB}-db_test:/var/lib/mysql
 
-volumes:
-  ${VOLUME_WORDPRESS}-wordpress_test:
-  ${VOLUME_DB}-db_test:
+
 
 networks:
   wordpress:
