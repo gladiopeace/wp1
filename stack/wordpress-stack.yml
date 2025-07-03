@@ -17,20 +17,20 @@ services:
     networks:
       - wordpress     
     volumes:
-      - /root/${VOLUME_WORDPRESS}-test:/var/www/html
+      - /root/json/data/${VOLUME_WORDPRESS}-test:/var/www/html
 
   db_test:
     image: jc21/mariadb-aria:latest
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: wordpress
+      MYSQL_DATABASE: ${MYSQL_DATABASE_NAME}
       MYSQL_USER: ${MYSQL_DATABASE_USER_NAME}
       MYSQL_PASSWORD: ${MYSQL_DATABASE_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${MYSQL_DATABASE_ROOT_PASSWORD}
     networks:
       - wordpress     
     volumes:
-      - /root/js/data/${VOLUME_DB}-db_test:/var/lib/mysql
+      - /root/json/data/${VOLUME_DB}-db_test:/var/lib/mysql
 
 
 
