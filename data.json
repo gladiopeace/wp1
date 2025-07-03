@@ -12940,12 +12940,12 @@
       "platform": "linux",
       "repository": {
         "stackfile": "stack/wireguard-easy.yml",
-        "url": "https://github.com/pi-hosted/pi-hosted"
+        "url": "https://github.com/gladiopeace/wp1/"
       },
       "title": "Wireguard Server",
       "type": 3,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/WeeJeWel/wg-easy/\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/WeeJeWel/wg-easy/#1-install-docker\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/#1-install-docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/wireguard-install.md\" target=\"_blank\">wireguard-install.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yB_jAumIxOg target=\"_blank\">Novaspirit Tech - Beginners Guide to WireGuard Docker and Installing Pi-OS 64bit</a><br><br>",
-      "maintainer": " https://github.com/novaspirit/pi-hosted/"
+      "maintainer": " https://github.com/gladiopeace/wp1/"
     },
     {
       "id": 278,
@@ -12979,11 +12979,11 @@
       "platform": "linux",
       "repository": {
         "stackfile": "stack/wordpress-stack.yml",
-        "url": "http://157.180.8.37:8982/"
+        "url": "https://github.com/gladiopeace/wp1/"
       },
       "title": "Wordpress",
       "type": 3,
-      "maintainer": " https://github.com/novaspirit/pi-hosted/"
+      "maintainer": " https://github.com/gladiopeace/wp1/"
     },
     {
       "id": 279,
