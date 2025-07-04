@@ -12987,6 +12987,11 @@
           "name": "VOLUME_WORDPRESS"
         },
         {
+          "default": "db_pt",
+          "label": "DB Name",
+          "name": "DB_NAME"
+        },
+        {
           "default": "wordpress",
           "label": "Database user name",
           "name": "MYSQL_DATABASE_USER_NAME"
