@@ -12962,6 +12962,11 @@
         },
         {
           "default": "db_test",
+          "label": "DB Host",
+          "name": "DB_HOST"
+        },
+        {
+          "default": "db_test",
           "label": "Database name",
           "name": "MYSQL_DATABASE_NAME"
         },
