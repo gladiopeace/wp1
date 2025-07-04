@@ -18,7 +18,7 @@ services:
     volumes:
       - /data/roy/wordpress/${VOLUME_WORDPRESS}-test:/var/www/html
 
-  ${DB_NAME}_db:
+  db_pt:
     image: jc21/mariadb-aria:latest
     restart: unless-stopped
     environment:
