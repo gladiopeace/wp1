@@ -17,7 +17,7 @@ services:
     networks:
       - wordpress     
     volumes:
-      - /root/json/data/${VOLUME_WORDPRESS}-test:/var/www/html
+      - /data/roy/wordpress/${VOLUME_WORDPRESS}-test:/var/www/html
 
   db_test:
     image: jc21/mariadb-aria:latest
